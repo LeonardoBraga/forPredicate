@@ -36,7 +36,4 @@ async function simpleTest() {
 simpleTest();
 ```
 
-I hope it helps!
-
-Cheers,
-Leonardo Braga
+Hit me on (https://twitter.com/LeonardoBraga)[Twitter] if you find this useful. 😉
