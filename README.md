@@ -22,10 +22,10 @@ await forPredicate(predicate, timeoutInSeconds, checkIntervalInSeconds);
 let flag = false;
 const predicate = () => flag;
 
-// Simulating the completion of an async operation after 3s
+// Simulating the completion of an async operation after 3s.
 setTimeout(() => flag = true, 3000);
 
-// For environments that do not support top-level `await`
+// For environments that do not support top-level `await`.
 async function simpleTest() {
   // Awaiting for the predicate to be completed.
   // In this example, we're not changing the default values for timeout or check intervals.
