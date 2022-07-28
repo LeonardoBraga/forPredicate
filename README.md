@@ -2,13 +2,13 @@
 
 Small JavaScript Async helper that lets you await for the completion of a given predicate.
 
-## Usage:
+### Usage
 
 ```
 await forPredicate(predicate, timeoutInSeconds = 10, checkIntervalInSeconds = 0.5);
 ```
 
-## Parameters
+### Parameters
 
 `predicate` is a function that is executed repeately until it returns a (https://developer.mozilla.org/en-US/docs/Glossary/Truthy)[`truthy`] value or the call times out. 
 
