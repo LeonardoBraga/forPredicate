@@ -30,7 +30,6 @@ async function simpleTest() {
   // Awaiting for the predicate to be completed.
   // In this example, we're not changing the default values for timeout or check intervals.
   const result = await forPredicate(predicate);
-
   console.log(`Operation completed with result: ${result}`);
 }
 
