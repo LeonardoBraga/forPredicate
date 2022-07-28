@@ -25,7 +25,7 @@ let flag = false;
 const predicate = () => flag;
 
 // Completing the predicate asynchronously after 3s
-setTimeout(() => (flag = true), 3000);
+setTimeout(() => flag = true, 3000);
 
 async function simpleTest() {
   // awaiting for the predicate to be completed
