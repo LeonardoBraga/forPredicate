@@ -10,7 +10,7 @@ await forPredicate(predicate, timeoutInSeconds = 10, checkIntervalInSeconds = 0.
 
 ### Parameters
 
-- `predicate` is a function that is executed repeately until it returns a [`truthy`](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) value or the call times out. 
+- `predicate` is a function that is executed repeatedly until it returns a [`truthy`](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) value or the call times out. 
 
 - `timeoutInSeconds` specifies the maximum duration, in seconds, within which the helper will try to execute the `predicate` before aborting the process, with a maximum value of 180 seconds and a minimum value of 0.1 seconds (100 milliseconds). 
 
