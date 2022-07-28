@@ -21,17 +21,3 @@ async function forPredicate(predicate, timeoutInSeconds = 10, checkIntervalInSec
   });
 }
 
-let flag = false;
-const predicate = () => flag;
-
-// Completing the predicate asynchronously after 3s
-setTimeout(() => flag = true, 3000);
-
-async function simpleTest() {
-  // awaiting for the predicate to be completed
-  const result = await forPredicate(predicate);
-
-  console.log(`Operation completed with result: ${result}`);
-}
-
-simpleTest();
